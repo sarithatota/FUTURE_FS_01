@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saritha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Hi, I am Saritha Thota 👋</h1>
+    <p>Frontend Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+       Hello everyone, I am Saritha, a 2nd-year B.Tech Computer Science Engineering student
+       at Aditya University. I am passionate about web development, problem-solving, and
+       building real-world applications.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>Node.js (Basics)</span>
+        <span>Java</span>
+        <span>Python</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>🎓 Student Course Registration System</h3>
+        <p>
+            Developed using Java, this system allows students to register for courses,
+            manage subjects, and track enrollments efficiently.
+        </p>
+        <p><strong>Tech Used:</strong> Java, OOP, Data Structures</p>
+    </div>
+
+    <div class="card">
+        <h3>🩺 Doctor Appointment System</h3>
+        <p>
+            Designed using software development and system design concepts,
+            this system allows patients to book appointments and manage schedules.
+        </p>
+        <p><strong>Tech Used:</strong> System Design, Database Concepts</p>
+    </div>
+
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>Download or view my resume below:</p>
+
+    <a href="Saritha_Thota_Resume_Final.pdf" download>
+        <button>📄 Download Resume</button>
+    </a>
+
+    <br><br>
+
+    <a href="Saritha_Thota_Resume_Final.pdf" target="_blank">
+        <button>👀 View Resume</button>
+    </a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>📧 Email: 
+        <a href="mailto:sarithatota956@gmail.com">
+            sarithatota956@gmail.com
+        </a>
+    </p>
+
+    <p>📍 Location: Andhra Pradesh, India</p>
+
+    <br>
+
+    <form onsubmit="sendMessage(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Saritha Thota</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
